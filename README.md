@@ -15,6 +15,25 @@
 Veriler bu sürümde tarayıcının yerel hafızasında saklanır. Gerçek kullanıcı,
 SMS/WhatsApp ve ortak veritabanı bağlantıları Firebase aşamasında kurulacaktır.
 
+## Dosya yapısı
+
+```text
+alfa-apartman-yonetim/
+├── index.html
+├── pages/
+│   ├── manager-login.html
+│   ├── manager-dashboard.html
+│   ├── apartment-login.html
+│   └── apartment-dashboard.html
+└── assets/
+    ├── css/styles.css
+    ├── js/
+    │   ├── app.js
+    │   ├── manager-dashboard.js
+    │   └── apartment-dashboard.js
+    └── images/
+```
+
 Sıfırdan kurulan temiz proje başlangıcı.
 
 ## İlk sürüm
