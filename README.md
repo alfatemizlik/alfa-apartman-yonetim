@@ -1,5 +1,20 @@
 # Alfa Temizlik Apartman Yönetimi
 
+## Sürüm 3
+
+- Ana sayfada küçük canlı Çorum hava durumu, `00:00` saat görünümü ve duyurular
+- Hareketli butonlar, kartlar ve yumuşak sayfa efektleri
+- Ana yönetici panelinden ana sayfa metni ve duyuru yönetimi
+- Yönetici ve apartman sakinlerine tekli/toplu mesaj hazırlama
+- Daire sakinleri için ayrıntılı borç ve ödeme geçmişi
+- Toplam tutarı dairelere bölerek veya sabit tutarla aylık aidat oluşturma
+- Nakit, havale/EFT, kredi kartı ve diğer ödeme yöntemleri
+- Aidat, demirbaş, ek gider, yakıt, tamirat ve diğer borç türleri
+- Borçlu, borçsuz veya seçilen sakinlere kişiselleştirilmiş mesajlar
+
+Veriler bu sürümde tarayıcının yerel hafızasında saklanır. Gerçek kullanıcı,
+SMS/WhatsApp ve ortak veritabanı bağlantıları Firebase aşamasında kurulacaktır.
+
 Sıfırdan kurulan temiz proje başlangıcı.
 
 ## İlk sürüm

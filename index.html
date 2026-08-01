@@ -17,6 +17,7 @@
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">Menü</button>
     <nav id="main-nav" class="main-nav" aria-label="Ana menü">
       <a href="#hizmetler">Hizmetler</a>
+      <a href="#duyurular">Duyurular</a>
       <a href="#hakkimizda">Hakkımızda</a>
       <a href="#calismalar">Çalışmalarımız</a>
       <a href="#iletisim">İletişim</a>
@@ -27,8 +28,8 @@
     <section class="hero">
       <div class="hero-content">
         <span class="eyebrow">Çorum'da güvenilir hizmet</span>
-        <h1>Temiz binalar,<br><span>mutlu yaşamlar.</span></h1>
-        <p>10 yılı aşkın sektör tecrübemizle apartmanlarınız için düzenli, güvenilir ve kapsamlı hizmet sunuyoruz.</p>
+        <h1 id="home-title">Temiz binalar,<br><span>mutlu yaşamlar.</span></h1>
+        <p id="home-description">10 yılı aşkın sektör tecrübemizle apartmanlarınız için düzenli, güvenilir ve kapsamlı hizmet sunuyoruz.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="manager-login.html">Yönetici Girişi</a>
           <a class="button button-secondary" href="apartment-login.html">Apartman Yöneticisi Girişi</a>
@@ -45,7 +46,12 @@
       </aside>
     </section>
 
-    <section id="hizmetler" class="section">
+    <section id="duyurular" class="section announcements-section reveal">
+      <div class="section-heading"><span>Güncel Bilgilendirmeler</span><h2>Duyurular</h2><p>Hizmet programlarımızla ilgili önemli bilgilendirmeleri buradan takip edebilirsiniz.</p></div>
+      <div id="announcement-list" class="announcement-grid"></div>
+    </section>
+
+    <section id="hizmetler" class="section reveal">
       <div class="section-heading"><span>Hizmetlerimiz</span><h2>Binanız için ihtiyaç duyduğunuz her şey</h2></div>
       <div class="card-grid">
         <article class="service-card"><span class="icon">✦</span><h3>Apartman Temizliği</h3><p>Ortak alanlar için planlı, özenli ve düzenli temizlik.</p></article>
@@ -57,12 +63,12 @@
       </div>
     </section>
 
-    <section id="hakkimizda" class="section experience">
+    <section id="hakkimizda" class="section experience reveal">
       <div><span class="eyebrow">Neden Alfa Temizlik?</span><h2>10 yılı aşkın deneyim, her gün aynı özen</h2><p>İşimizi yalnızca temizlik olarak görmüyor; yaşam alanlarının düzenini, güvenini ve sürekliliğini önemsiyoruz.</p></div>
       <div class="stats"><div><strong>10+</strong><span>Yıllık tecrübe</span></div><div><strong>18</strong><span>Referans apartman</span></div><div><strong>6</strong><span>Hizmet alanı</span></div></div>
     </section>
 
-    <section id="calismalar" class="section">
+    <section id="calismalar" class="section reveal">
       <div class="section-heading"><span>Çalışmalarımız</span><h2>İşimizden kareler</h2><p>Gerçek çalışma fotoğraflarımız daha sonra bu alana kolayca eklenecek.</p></div>
       <div class="work-grid"><div class="work-placeholder">Apartman temizliği</div><div class="work-placeholder">Ortak alan bakımı</div><div class="work-placeholder">Bahçe düzenlemesi</div></div>
     </section>
