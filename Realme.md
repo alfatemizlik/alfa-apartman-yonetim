@@ -1,1 +1,0 @@
-Alfa Temizlik Yönetim Sistemi
