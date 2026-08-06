@@ -54,3 +54,11 @@ Sıfırdan kurulan temiz proje başlangıcı.
 5. Bildirim altyapısı
 
 `index.html` dosyasını tarayıcıda açarak ilk sürümü görüntüleyebilirsiniz.
+
+## Sürüm 4.1
+
+- Ana sayfaya telefon ve WhatsApp iletişim alanı eklendi.
+- Mobil kullanım için sabit WhatsApp erişim düğmesi eklendi.
+- Ana yönetici, apartman kartından “Çöpler Alındı” veya “Temizlik Yapıldı” bildirimi oluşturabilir.
+- Oluşturulan hizmet bildirimleri apartman yönetici panelinde bina adı, tarih ve saat bilgisiyle görüntülenir.
+- Bu prototipte bildirimler tarayıcının yerel hafızasında saklanır; farklı cihazlar arasında gerçek zamanlı gönderim Firebase aşamasında etkinleştirilecektir.
